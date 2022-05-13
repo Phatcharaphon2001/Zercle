@@ -1,0 +1,156 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+
+
+    }
+    * a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
+    }
+    .text-xlarge{
+        font-size:24px;
+        font-weight: bold;
+    }
+
+    .fornt-jumbo:hover{
+        color: aquamarine;
+        text-align: center;
+        transition: 0.4s; 
+    }
+
+    .fornt-jumbo{
+        font-size:128px;
+        text-align: center;
+        
+        
+    }
+    .text-middle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Raleway", sans-serif;
+        height: 600px;
+        flex-direction: column;
+    }
+    .text-center{
+       text-align: center;
+       margin-bottom: 50px;
+    }
+    .bgimg {
+        background-image: url(https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_2580,c_limit/BlackForest-Germany-GettyImages-147180370.jpg);
+        min-height: 100vh;
+        text-align: center;
+        flex-wrap: wrap;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        transform-style: inherit;
+        position: relative;
+        width: 100vw;
+      }
+    .text-white {
+        color: white;
+    }
+   
+    body, html {
+        height: 100%
+    }
+    .navbar{
+        width: 90%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Raleway", sans-serif
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+    nav ul li{
+        margin-right: 15px;
+    }
+    .icon{
+        font-size: 32px;
+        position: absolute;
+        left:50%;
+        bottom: 0;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%,-50%);
+        
+    }
+    .plant-now{
+        color: rgb(8, 144, 53);  
+    }
+    .plant-now:hover{
+        background-color: azure;
+        color: darkgreen;
+        padding: 0.5em;
+        border-radius: 05em;
+        transition: 0.4s;
+    }
+    .plant-a-tree{
+        font-size: 24px;
+        background-color: rgb(149, 233, 24);
+        position: relative;
+        padding: 0.7em;
+        border-bottom-left-radius: 0.7em;
+        border-top-left-radius: 0.7em;
+        border-bottom-right-radius: 0.7em;
+        font-family: "Raleway", sans-serif;
+        justify-content: center;
+    }
+    .plant-a-tree:hover{
+        background-color: white;
+        color:rgb(149, 233, 24);
+
+    }
+    .bar{
+    display: none;
+    }
+    @media screen and (max-width:700px){
+    .bar{
+        display: block;
+        color: white;
+    }        
+    nav{
+        position: absolute;
+        right: 0;
+        background-color: rgb(255, 255, 255);
+        margin-top: 350px;
+        border-radius: 10px;
+        border: solid 1px rgb(255, 255, 255);
+        overflow: hidden;
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        padding: 20px 25px;
+        margin: 0;
+    }
+    nav ul li:hover{
+        background-color: rgb(199, 199, 199);
+    }
+    .show {
+        display: flex;
+    }
+    ion-icon:hover{
+        color:rgb(149, 233, 24);
+    }
+    nav ul li a{
+        color: black;
+    }
+    
+    }
